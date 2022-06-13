@@ -5,6 +5,7 @@
 /* текст в мейні та футері FFFFFF */
 /* колір фону мейна та футера 2F303A */
 /* колір фону секція 2 F5F4FA */
+
 :root{
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
@@ -36,7 +37,7 @@
     /* border: 1px solid tomato; */
 }
 
-.none-style-list,
+
 .header-nav-list,
 .header-list,
 .features-list,
@@ -345,11 +346,8 @@
 .portfolio-list-item{
     text-align: left;
     width: 370px;
-    border-bottom: 1px solid #EEEEEE;
-    padding-bottom: 20px;
     margin-left: 30px;
     margin-bottom: 30px;
-    
 }
 
 .portfolio-list-item:nth-child(3n+1){
@@ -359,10 +357,14 @@
 .portfolio-list-item:nth-last-child(-n+3){
     margin-bottom: 0px;
 }
-
+.portfolio-list-border-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+}
 .portfolio-title{
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin: 0;
 
     font-weight: 700;
     font-size: 18px;
