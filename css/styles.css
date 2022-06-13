@@ -26,6 +26,7 @@
 }
 
 .container,
+.header-container,
 .work-container,
 .footer-container{
     margin: 0 auto;
