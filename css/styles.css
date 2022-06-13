@@ -46,8 +46,8 @@
 .footer-list,
 .portfolio-buttons-list,
 .portfolio-list{
-    margin: 0px 0px;
-    padding: 0px 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -94,7 +94,10 @@
 }
 
 .header-nav-list {
+    align-items: center;
     margin-left: 93px;
+    /* margin-top: 32px;
+    margin-bottom: 32px; */
 }
 
 .nav-link,
@@ -109,17 +112,9 @@
 
 .header-list{   
     margin-left: auto;
-}
-
-.header-nav-list-item{
     margin-top: 32px;
     margin-bottom: 32px;
 }
-
-/* .header-list-item{
-    margin-top: 32px;
-    margin-bottom: 32px;
-} */
 
 .header-list-item:not(:first-child),
 .header-nav-list-item:not(:first-child){
