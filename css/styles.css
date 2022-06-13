@@ -114,16 +114,17 @@
     margin-bottom: 32px;
 }
 
+/* .header-list-item{
+    margin-top: 32px;
+    margin-bottom: 32px;
+} */
+
 .header-list-item:not(:first-child),
 .header-nav-list-item:not(:first-child){
     margin-left: 50px;
 }
 
 .header-contact {
-    /* display: block;
-    margin-top: 32px;
-    margin-bottom: 32px; */
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -143,11 +144,11 @@
 /*main*/
 .hero{
         background-color: var(--dark-background);
-        height: 600px;
 }
 
 .container-hero{
     padding-top: 200px;
+    padding-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
     width: 696px;
@@ -156,8 +157,8 @@
 }
 
 .hero-title{
-    /* margin-top: 200px;
-    margin-bottom: 0px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
 
     font-weight: 900;
     font-size: 44px;
